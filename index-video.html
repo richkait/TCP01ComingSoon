@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>The Panic Station</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,800italic,700,700italic|Abril+Fatface|Just+Another+Hand&subset=latin,latin-ext,cyrillic-ext,greek-ext,greek,vietnamese,cyrillic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <!--[if lte IE 8]><script src="js/vendor/css3-mediaqueries.js"></script><![endif]-->
+        <!--[if gte IE 9]><style type="text/css">body{ filter: none; }</style><![endif]-->
+    </head>
+    <body>
+
+    <!-- Define your pages backgrounds -->
+        <div class="bg bg-home video">
+            <!-- if you want video uncomment this block and coment or remove the images above -->           
+            <video autoplay="autoplay" loop="loop" autobuffer="autobuffer" muted="muted">
+                <source src="video/video.mp4" type="video/mp4" />
+                <source src="video/video.webm" type="video/webm" />
+            </video>
+            <!-- End video block -->
+        </div>
+        <div class="bg bg-about-us"></div>
+        <div class="bg bg-services"></div>
+        
+        <div id="contact_map" class="bg bg-contacts"></div>
+
+        <div id="mask-shape" class="unloaded">
+            <div id="loader"></div>
+        </div>
+
+
+    <!-- Begin Header -->
+        <header class="container">
+            <div class="row">
+                <div class="nav-wrapper span7">
+                    <div class="row">
+                        <div class="offset1 span3">
+                            <figure >
+                                <a href="#home" class="home"><img src="temp/logo.png" alt="PixelThrone"></a>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <nav class="offset2 span5">
+                            <ul class="unstyled inline">
+                                <li><a href="#about-us" class="menu1">About Us</a></li>
+                                <li><a href="#services" class="menu2">Services</a></li>
+                                <li><a href="#contacts" class="menu3">Contacts</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+    <!-- End Header -->
+
+
+    <!-- Begin Section Twitter -->
+        <section class="twitter">
+            <div class="container">
+                <div class="row">
+                    <div class="offset8 span1">
+                        <div class="twitter-feed-icon"></div>
+                    </div>
+                    
+                    <div class="twitter-feed span3"></div>                    
+                </div>
+            </div>
+        </section>
+    <!-- End Section Twitter -->
+
+
+    <!-- Begin Section Home -->
+        <section id="home" class="main show">
+            <div class="container">
+                <div class="row">
+                    <div class="offset5 span7">
+                        <h1>Welcome</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="offset7 span5">
+                        <h2>Our new website is coming very soon</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- End Section Home -->
+
+    <!-- Begin Section About Us -->
+        <section id="about-us" class="main hide">
+            <div class="container">
+                <div class="row">
+                    <div class="offset5 span7">
+                        <h1>About us</h1>
+                    </div>
+                </div>
+                <div class="phone-accordion">
+                    <div class="row">
+                        <div class="offset7 span5">
+                            <h2>We build great brands</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="offset6 span3">
+                            <p><strong>We are a leading full service marketing and technology company with expertise across all digital channels.</strong></p>
+                            <p>The world has changed: ‘always on’ brands require a new way of thinking to engage and manage their consumers. Our purpose is to inspire original thinking through a deeper understanding of technology and human behaviour.</p>
+                        </div>
+                        <div class="span3">
+                            <p>From strategy through to implementation, our teams of connected specialists - all experts in their respective fields - work together to help our clients maximise the opportunities created by the changing digital world and create a multi faceted digital presence that remains true to their brand and business.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- End Section Sbout Us -->
+
+
+    <!-- Begin Section Services -->
+        <section id="services" class="main hide">
+            <div class="container">
+                <div class="row">
+                    <div class="offset5 span7">
+                        <h1>Services</h1>
+                    </div>
+                </div>
+                <div class="phone-accordion">
+                    <div class="row">
+                        <div class="offset7 span5">
+                            <h2>We do good work</h2>
+                        </div>
+                    </div>
+                    <div class="row services-list">
+                        <div class="offset6 span1">
+                            <span class="icon">&#128187;</span>
+                        </div>
+                        <div class="span2">
+                            <h3>Web Design</h3>
+                            <p>Proin egestas diam ac mauris molestie hendrerit.</p>
+                        </div>
+                        <div class="span1">
+                            <span class="icon">&#128241;</span>
+                        </div>
+
+                        <div class="span2">
+                            <h3>Mobile</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                    <div class="row services-list">
+                        <div class="offset6 span1">
+                            <span class="icon">&#9825;</span>
+                        </div>
+                        <div class="span2">
+                            <h3>Branding</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                        </div>
+                        <div class="span1">
+                            <span class="icon">&#128161;</span>
+                        </div>
+
+                        <div class="span2">
+                            <h3>Social Media</h3>
+                            <p>Suspendisse viverra mauris eget tortor imperdiet vehicula.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- End Section Services -->
+
+
+    <!-- Begin Section Contacts -->
+        <section id="contacts" class="main hide">
+            <div class="container">
+                <div class="row">
+                    <div class="offset5 span7">
+                        <h1>Contact us</h1>
+                    </div>
+                </div>
+                <div class="phone-accordion">
+                    <div class="row">
+                        <div class="offset7 span5">
+                            <h2>Get in touch with us</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="offset6 span7">
+                            <p><strong>Send us an email or visit us at:</strong></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="offset6 span2">
+                            <p>Portugal<br>
+                                41st Avenue, Manhattan,<br>
+                                New York, NY,<br>
+                                United States
+                            </p>
+                        </div>
+                        <div class="span3">
+                            <p>Adress: &nbsp;&nbsp;(000) 123 4567<br>
+                                Fax: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(111) 123 4567<br>
+                                E-mail: &nbsp;&nbsp;&nbsp;<a href="mailto:mail@mail.com">mail@example.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- End Section Contacts -->
+
+
+    <!-- Begin Footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="copyright span2 offset2 ">
+                        <p>© 2013 PixelThrone</p>
+                    </div>
+
+                    <div class="mailing-list span2 offset3">
+                        <a class="join-us">Join our mailing list</a>
+                    </div>
+
+                    <div class="social span3">
+                        <!-- Social Profiles. Uncomment the ones you want, comment the ones you dont want. -->
+                        <ul class="social-profiles unstyled inline hidden-phone">
+                            <li class="twitter"><a href="https://twitter.com/pixelthrone" target="_blank"></a></li>
+                            <li class="facebook"><a href="https://www.facebook.com/pixelthrone" target="_blank"></a></li>
+                            <li class="gplus"><a href="#"></a></li>
+                            <li class="pinterest"><a href="#"></a></li>                                    
+                            <li class="linkedin"><a href="#"></a></li>
+                            <li class="dribbble"><a href="#"></a></li>
+                            <!--
+                            <li class="github"><a href="#"></a></li>
+                            <li class="flickr"><a href="#"></a></li>
+                            <li class="vimeo"><a href="#"></a></li>
+                            <li class="gplus"><a href="#"></a></li>
+                            <li class="pinterest"><a href="#"></a></li>
+                            <li class="tumblr"><a href="#"></a></li>
+                            <li class="stumbleupon"><a href="#"></a></li>
+                            <li class="lastfm"><a href="#"></a></li>
+                            <li class="instagram"><a href="#"></a></li>
+                            <li class="skype"><a href="#"></a></li>
+                            <li class="soundcloud"><a href="#"></a></li>
+                            -->
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <a id="fullscreen"></a>
+        </footer>
+    <!-- End Footer -->
+
+    
+    <!-- Begin Section Mailing List -->
+        <div class="sign-mailing-list hide">
+            <a class="close"></a>
+            <div class="container">
+                <div class="row">
+                    <div class="offset2 span8">
+                        <h1>Join our mailing list</h1>
+                        <h2>to stay up date</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="span2 offset1">
+                        <div class="message-wrapper">
+                            <div class="message">Please enter a<br>valid e-mail</div>
+                            <div class="message-arrow"></div>
+                        </div>
+                    </div>
+                    <div class=" span6">
+                        <form method="post" id="newsletter" action="newsletter.php">
+                            <input type="text" class="input-block-level" name="email" placeholder="Your e-mail">
+                            <button>—  show me your world</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- End Section Mailing List -->
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
