@@ -88,7 +88,7 @@ a:hover { color: #d6002f; }
 * Define your pages backgrounds
 *
 */
-.bg.bg-home	 { background-image: url(../temp/IMG_2408-bw.jpg); opacity: .5;}
+.bg.bg-home	 { background-image: url(../temp/IMG_2408-bw.jpg); opacity: .7;}
 /*.bg.bg-about-us { background-image: url(../temp/bg2.jpg); opacity: 0; filter: alpha(opacity=0); }
 .bg.bg-services { background-image: url(../temp/bg3.jpg); opacity: 0; filter: alpha(opacity=0); }*/
 
