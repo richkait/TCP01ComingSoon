@@ -131,7 +131,7 @@ header, section, footer, nav li a{ opacity: 0; z-index: 3 }
 header, footer { bottom:0; z-index: 5; }
 header, footer, section.main, section.twitter { position: absolute; left: 0; right: 0; }
 
-header.container { left: -610px; }
+header.container { left: -610px; bottom: -180px; }
 header.container, header .nav-wrapper { width: 630px; }
 header nav, header figure { position: relative; }
 header figure { margin: 0; }
@@ -201,6 +201,8 @@ ul.social-profiles li.instagram a:hover   { background: #517fa4; }
 ul.social-profiles li.skype a:hover       { background: #00b0f6; }
 ul.social-profiles li.soundcloud a:hover  { background: #fe4b00; }
 
+ul.social-profiles li.cm { position: relative; left: 10px; bottom: -7px; }
+
 /* Twitter */
 section.twitter, section.twitter a {  }
 section.twitter ul { margin: 0; }
@@ -210,9 +212,7 @@ section.twitter li .tweet_time a { font-size: 11px; display: inline-block; }
 section.twitter li .tweet_time:before { content: '\2013'; padding-right: 4px; }
 header.container .twitter-feed-icon { background: url("../img/twitter-feed.png") no-repeat; width: 48px; height: 61px; margin-left: 32px; }
 header.container .twitter-feed .tweet_list .tweet_first { display: block; }
-.twitter-feed.span3 {
-	margin-left: 30px !important;
-}
+.twitter-feed.span3 { margin-left: 30px; }
 
 /* Services list */
 .services-list { margin-bottom: 20px; }
@@ -289,9 +289,9 @@ footer ul.social-profiles li a, footer ul.social-profiles li a:hover
 	p { line-height: 16px;}
 
 	header {left: -80px; bottom: 70px}
-	header.container { left: -515px; }
-	header.container, header .nav-wrapper { width: 290px; }
-	header .row nav { width: 166px;  height: 166px;}
+	header.container { left: -415px; }
+	/*header.container, header .nav-wrapper { width: 290px; }
+	header .row nav { width: 166px;  height: 166px;}*/
 
 	nav a, nav a:active, nav a:focus { font-size: 15px; padding-top: 5px; padding-bottom: 5px; }
 	nav a:hover { padding-top: 5px; padding-bottom: 5px; }
@@ -301,6 +301,8 @@ footer ul.social-profiles li a, footer ul.social-profiles li a:hover
 	section.main { top: 200px; margin-left: -120px; }
 	section.twitter { top: 50px; left: -210px }
 	section.twitter .twitter-feed-icon { margin-left: 4px; }
+
+	.twitter-feed { margin-left: 60px !important; }
 	
 	section.main .span5 { width: 290px; }
 
