@@ -88,7 +88,7 @@ a:hover { color: #d6002f; }
 * Define your pages backgrounds
 *
 */
-.bg.bg-home	 { background-image: url(../temp/IMG_2408-bw.jpg); opacity: .3;}
+.bg.bg-home	 { background-image: url(../temp/IMG_2408-bw.jpg); opacity: .5;}
 /*.bg.bg-about-us { background-image: url(../temp/bg2.jpg); opacity: 0; filter: alpha(opacity=0); }
 .bg.bg-services { background-image: url(../temp/bg3.jpg); opacity: 0; filter: alpha(opacity=0); }*/
 
@@ -121,10 +121,10 @@ body .loaded #loader, body .loaded-window #loader { opacity: 0; display:none; }
 .loaded-window, #mask-shape.loaded-window { opacity: 0.95 !important;  filter: alpha(opacity=95) !important; z-index: 8; }
 
 /* Typography */
-h1 { font-family: 'Rosarivo', serif; font-size: 106px; line-height:70px; }
+h1 { font-family: 'Rosarivo', serif; font-size: 106px; line-height:70px; color: #C60B46; }
 h2 { font-size: 30px; line-height: 35px; font-weight: 300; text-transform: uppercase; margin-bottom: 40px; }
 h3 { font-size: 16px; line-height: 20px; font-weight: 700; margin: 0; }
-h1, h2, h3 { color: #C60B46; text-align: center; }
+h1, h2, h3 { text-align: center; }
 
 /* Structure */
 header, section, footer, nav li a{ opacity: 0; z-index: 3 }
@@ -159,9 +159,9 @@ footer #fullscreen { font-family: 'entypo'; position: absolute; margin: 0px; bot
 footer #fullscreen:after { content: '\E744'; }
 footer #fullscreen.true:after { content: '\E746'; }
 
-/* Social Icons */
-footer .social { margin-left: 9px; }
-footer ul.social-profiles { margin-bottom: 0; padding: 3px 0 16px 10px; border-left: 1px solid rgb(255, 255, 255); border-left: 1px solid rgba(255, 255, 255, 0.5); }
+/* Social Icons 
+footer .social { margin-left: 9px; }*/
+footer ul.social-profiles { margin-bottom: 0; padding: 3px 0 16px 10px; }
 footer ul.social-profiles li { padding: 0; }
 footer ul.social-profiles li a { font-family: 'entypo'; font-size: 21px; padding: 0px 6px; line-height: 100%; }
 footer ul.social-profiles li a:hover { text-decoration: none; color: #fff; padding: 10px 6px 18px 6px; }
@@ -343,7 +343,7 @@ footer ul.social-profiles li a, footer ul.social-profiles li a:hover
 	#mask-shape, .bg.bg-home, .bg.bg-about-us, .bg.bg-services, .bg.bg-contacts { position: fixed; }
 	section.main { top: 0; margin-top: 35px; }
 	/*section.twitter,*/  .sign-mailing-list, .mailing-list, .nav-wrapper { display: none; }
-	section.twitter {width:200px !important; height: auto !important; top: 10px;}
+	section.twitter {width:200px !important; height: auto !important; top: 10px; margin-right: auto; margin-left: auto; }
 
 	header, footer, section.main, section.twitter { position: relative; }
 	header.container { text-align: center; margin: 30px 0; left: 0;  }

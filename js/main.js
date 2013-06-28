@@ -13,7 +13,7 @@ var twitter_enabled = true;
 var twitter_username = 'thecheekypuppy';
 
 //Number of tweets
-var twitter_count = 3;
+var twitter_count = 1;
 
 // =======================================================================// 
 // Google Maps                                                           //        
@@ -175,7 +175,7 @@ jQuery(document).ready(function() {
 			jQuery('.tweet_list').cycle({
 				fx: 'custom',
 				cssBefore: {
-					top:50,
+					//top:50,
 					height: 100,
 					opacity: 0,
 					display: 'block'
